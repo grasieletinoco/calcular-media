@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; 
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EDE8E8;
+}
+
+/* INICIO MAIN */
+h1{
+  height: 100px;
+  font-family: 'Reem Kufi Ink', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  background-color: #CDB7B5;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 150px);
+}
+
+.form-content__nota{
+  margin-bottom: 1rem;
+}
+
+.form-content__nota label{
+  padding-right: 0.2rem;
+  font-weight: 900;
+}
+
+.form-content__nota input{
+  width: 75px;
+  height: 25px;
+  text-align: center;
+  border: 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+button {
+  background-color: #F08080;
+  font-weight: 900;
+  padding: 1rem;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+}
+/* FINAL MAIN */
+
+
+
+/* INICIO FOOTER */
+.footer_info{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #8B7D7B;
+}
+
+.footer_info p{
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.footer_info ul{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer_info ul li {
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.2s;
+}
+
+.footer_info ul li:hover {
+  scale: 1.1;
+}
+
+/* FINAL FOOTER */
